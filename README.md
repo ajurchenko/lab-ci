@@ -1,1 +1,1 @@
-# lab-ci
+![CI](https://github.com/ajurchenko/lab-ci/actions/workflows/ci.yml/badge.svg)
