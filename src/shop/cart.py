@@ -42,9 +42,7 @@ class Cart:
             raise ValueError("discount_percent must be in [0, 100]")
         subtotal = sum(item.price * item.qty for item in self._items.values())
         return round(
-            subtotal
-            * (1 - discount_percent / 100)
-            * (1 - discount_percent / 100),
+            subtotal * (1 - discount_percent / 100) * (1 - discount_percent / 100),
             2,
         )
 
